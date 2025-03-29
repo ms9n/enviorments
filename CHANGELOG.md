@@ -6,31 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [8.0.0] - 2025-03-29
 ### Added
 - Optimization improvements and documentation
+  - Enhanced token counting performance
+  - Improved execution time tracking
+  - Added comprehensive optimization documentation
 - Enhanced error handling in dashboard layout
+  - Better error state management
+  - Improved loading states
+  - More user-friendly error messages
 
-## [1.0.0] - 2025-03-29
-### Added
-- NBA scores section with real-time updates
-- Players information page with detailed stats
-- Press conferences section with video integration
-- Interactive dashboard layout
-- Mobile-responsive sidebar navigation
-- Custom UI components library
-  - Alert dialogs and notifications
-  - Cards and badges
-  - Form elements
-  - Navigation components
-- Flask backend API endpoints for:
-  - NBA results
-  - Player information
-  - Press conferences
-  - Game optimization algorithms
-  - Text summarization
-- Responsive design with Tailwind CSS
-- Dark mode support
-- Custom error handling pages
+### Changed
+- Major version bump from v7.0.0 to v8.0.0
+- Refactored optimization endpoints for better performance
+- Updated dashboard layout error handling architecture
 
 ### Technical
 - Next.js 14 app router implementation
@@ -47,5 +38,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - API route validation
 - Cross-Origin Resource Sharing (CORS) configuration
 
-[Unreleased]: https://github.com/ms9n/enviorments/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/ms9n/enviorments/compare/v8.0.0...HEAD
+[8.0.0]: https://github.com/ms9n/enviorments/compare/v7.0.0...v8.0.0
 [1.0.0]: https://github.com/ms9n/enviorments/releases/tag/v1.0.0
